@@ -1,0 +1,150 @@
+body {
+  background-color: pink;
+
+}
+
+.header {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  background-color: pink;
+  width: 100%;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  grid-area: 'header';
+}
+
+hr {
+  border: white 4px solid;
+}
+
+.clickline {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 500px);
+}
+
+.freind1 {
+  grid-area: 1/1/1/2;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.adeelpic {
+  height: 450px;
+  width: 400px;
+}
+
+.freind2 {
+  grid-area: 1/2/1/2;
+}
+
+.aounpic{
+  height: 403px;
+  width: 302px;
+}
+
+
+.freind3 {
+  grid-area: 2/1/2/2;
+}
+
+.talalpic {
+  width: 360px;
+  height: 360px;
+}
+
+.freind4 {
+  grid-area: 2/2/2/3;
+}
+
+.abdullahpic {
+  width: 216px;
+  height: 384px;
+}
+
+.freind5 {
+  grid-area: 3/1/3/2;
+}
+
+.jawadpic {
+  width: 348px;
+  height: 464px;
+}
+
+.freind6 {
+  grid-area: 3/2/3/3;
+}
+
+.riyyanpic {
+  width: 341px;
+  height: 455px;
+
+}
+
+.freind7 {
+  grid-area: 4/1/4/2;
+}
+
+.khanpic {
+  width: 284px;
+  height: 500px;
+}
+
+.freind8 {
+  grid-area: 4/2/4/3;
+}
+
+.shammakhpic {
+  width: 261px;
+  height: 464px;
+}
+
+.freind9 {
+  grid-area: 5/1/5/2;
+}
+
+.alipic {
+  width: 270px;
+  height: 453px;
+}
+
+.freind10 {
+  grid-area: 5/2/5/3;
+}
+
+.rahimpic {
+  width: 240px;
+  height: 426px;
+}
+
+.freind11 {
+  grid-area: 6/1/6/2;
+}
+
+.salmanpic {
+  width: 540px;
+  height: 405px;
+}
+
+.freind12 {
+  grid-area: 6/2/6/3;
+}
+
+.talhapic {
+  width: 480px;
+  height: 500px;
+}
+
+.love {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
